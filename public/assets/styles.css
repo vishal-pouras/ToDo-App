@@ -21,20 +21,19 @@ body{
 }
 
 input[type="text"]{
-    width: 70%;
+    width: 96%;
     padding: 20px;
     background:#181c22;
-    border: 0;
+    margin-bottom: 20px;
     float: left;
     font-size: 20px;
     color: #989898;
 }
 
-input[type="button"]{
-    float: left;
+button{
     padding: 20px;
-    width: 26%;
-    float: left;
+    width: 30%;;
+    margin-left: 35%;
     background: #23282e;
     border: 0;
     box-sizing: border-box;
@@ -44,17 +43,15 @@ input[type="button"]{
 }
 
 ul{
-    width: 95%;
-    text-align: center;
     list-style-type: none;
+    width:100%;
     padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-    background: #090d13;
+    margin-left: 25px;
+    text-align: center;
 }
 
 li{
-    width: 100%;
+    width: 95%;
     padding: 20px;
     box-sizing: border-box;
     font-family: arial;
