@@ -30,9 +30,10 @@ input[type="text"]{
     color: #989898;
 }
 
-button{
+input[type="button"]{
+    float: left;
     padding: 20px;
-    width: 30%;
+    width: 26%;
     float: left;
     background: #23282e;
     border: 0;
@@ -43,9 +44,13 @@ button{
 }
 
 ul{
+    width: 95%;
+    text-align: center;
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: #090d13;
 }
 
 li{
@@ -64,7 +69,7 @@ li:hover{
 }
 
 h1{
-    background: url(/logo.png) no-repeat center;
+    background: url(/assets/logo.png) no-repeat center;
     margin-bottom: 0;
     text-indent: -10000px;
 }
